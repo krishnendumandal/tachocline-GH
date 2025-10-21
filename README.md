@@ -6,7 +6,7 @@ The inversion results are available in the following GitHub repository:
 
 Each dataset in the compressed repository is stored as a NumPy .npz file with the filename format:
 wst_smooth_nb_GONG_4x72d_s_1stD_<s>.npz,
-where <s> corresponds to the harmonic degree, s.
+where s corresponds to the harmonic degree, s.
 
 These files can be loaded in Python using the following commands:
 
