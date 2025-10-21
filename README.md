@@ -5,7 +5,7 @@ The inversion results are available in the following GitHub repository:
 🔗 https://github.com/krishnendumandal/tachocline-GH
 
 Each dataset in the compressed repository is stored as a NumPy .npz file with the filename format:
-wst_smooth_nb_GONG_4x72d_s_1stD_<s>.npz,
+wst_smooth_nb_GONG_4x72d_s_1stD_s.npz,
 where s corresponds to the harmonic degree, s.
 
 These files can be loaded in Python using the following commands:
@@ -21,8 +21,8 @@ wst_std = load_file['wst_std']
 
 Here,
 
-    r represents the radial grid,
+r represents the radial grid,
 
-    wst is the inversion result, and
+wst is the inversion result, and
 
-    wst_std is the corresponding uncertainty (standard deviation) of the inversion.
+wst_std is the corresponding uncertainty (standard deviation) of the inversion.
